@@ -1,0 +1,144 @@
+{
+    // DEFINE O TEMA DO VSCODE
+    "workbench.colorTheme": "Dracula",
+
+    //Ccnfigura tamanho e famiia da fonte
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+
+***********************************************************8888
+danielcs7
+dadau171
+git config --global user.name "danielcarloss7"
+git config --global user.email "danielcarloss7@icloud.comcs7"
+**************************************************************8
+
+
+    //aplica linhas verticais para lmbrar
+    "editor.rules": [80, 120],
+    "prettier.eslintIntegration":true,
+
+    //applica um sinal
+    "editor.renderLineHighlight": "gutter",
+
+    //icone sidbar
+    "workbench.iconTheme": "material-icon-theme"
+}
+-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*****************************
+Error: listen EADDRINUSE :::3000
+para resolver
+lsof -i tcp:3000
+kill -9 5805
+***************************888
+
+-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# CRONTAB
+#RODA TAREFA DO RELATORIO DE TEMPERATURA MAIS UMIDADE COM MEDIDAS
+#00 6 * * * root /home/iab/Documents/schedulers/startilhasMedias.sh
+#00 9 * * * root /home/iab/Documents/schedulers/startilhasMedias.sh
+#00 17 * * * root /home/iab/Documents/schedulers/startilhasMedias.sh
+#00 23 * * * root /home/iab/Dcouments/schedulers/startilhasMedias.sh
+
+#00 6 * * * root /home/iab/Documents/schedulers/ProjetoReportGoogleStudio/reportPanelGoogle.sh
+#00 9 * * * root /home/iab/Documents/schedulers/ProjetoReportGoogleStudio/reportPanelGoogle.sh
+#00 17 * * * root /home/iab/Documents/schedulers/ProjetoReportGoogleStudio/reportPanelGoogle.sh
+#*/3 * * * * root /home/iab/Documents/schedulers/ProjetoReportGoogleStudio/checkGreenhouse.sh
+-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+--*************************************************************************************************************
+![XHTML válido](./img/rocketseta.png)
+
+# Para se iniciar um projeto com ReactNative
+
+[Site de configuração Rocketseat](https://github.com/Rocketseat/ambiente-react-native)
+
+## Deve fazer a instalação dos pacotes npm e nodejs
+
+#### 1 - instalar curl
+
+sudo apt-get install curl
+
+---
+
+#### 2 - instalar o nodejs com npm
+
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+sudo apt install nodejs
+
+---
+
+#### 3 - instalar o react-native
+
+sudo npm install -g react-native-cli
+
+// Ou yarn global add react-native-cli
+
+---
+
+#### 4 - instalação do java
+
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+
+Podemos testar a instalação do JDK com o seguinte comando:
+
+java -version
+
+---
+
+#### 5 - instalação de componentes
+
+sudo apt-get install gcc-multilib lib32z1 lib32stdc++6
+
+---
+
+#### > Para Configurar o Genymotion
+
+> sudo apt-get install virtualbox
+
+> chmod +x genymotion-2.2.2_x64.bin
+> ./genymotion-2.2.2_x64.bin
+
+Para iniciar o genymotion deve digitar ./genymotion
+
+---
+
+#### > Configurar o ANDROID_HOME
+
+> export ANDROID_HOME=/home/iab/Android/Sdk
+> export PATH=${PATH}:$ANDROID_HOME/tools:\$ANDROID_HOME/platform-tools
+
+source ~/.bashrc
+
+---
+
+Para iniciar com o emulador deve:
+
+react-native run-android ou react-native run-ios
+
+---
+-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+![rocketseat](/home/iab/Dev-GitHub/www/DevReactNative/reactnative/modulo1/img/rocketseat.png  "rocketseat")
+
+# Entendendo todo o código.
+
+
+1 - Para iniciar um projeto deve digitar no terminal:
+><strong>react-native init nomeDoProjeto</strong>
+
+---
+2 - Depois deve abrir esse projeto no seu editor de preferência. No meu caso irei abrir com o visual studio code:
+><strong>code .</strong>
+
+---
+Antes de iniciar o projeto, rode o emulador para **ios** ou  **android**
+>**react-native run-android**
+ou
+>**react-native run-ios**
+
+---
+Para resetar o cache
+>**react-native start --reset-cache**
+-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
